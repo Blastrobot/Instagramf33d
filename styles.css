@@ -1,0 +1,42 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: lightpink;
+    margin: 0%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+header{
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+}
+.feed {
+    width: 600px;
+    margin: auto;
+}
+.post {
+    background: white;
+    margin-top: 7%;
+    border-radius: 1%;
+}
+.post img {
+    width: 100%;
+}
+.post h2, p {
+    padding: 10px;
+    margin: 0%;
+}
+.post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+.post-header div:last-child{
+    display: inline-block;
+    width: 18%;
+    text-align: right;
+    color: grey;
+}
